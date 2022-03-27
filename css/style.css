@@ -26,6 +26,25 @@ body{
     color: #aeaeae;
 }
 
+html{scroll-behavior: smooth}
+
+.nav-bar{
+    font-size: 26px;
+    color: #606060;
+    background-color: white;
+    text-align: center;
+    border-radius: 22px;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 25px;
+}
+
 .container{
     padding: 0 16px;
 }
@@ -150,5 +169,11 @@ a{
 
     .copyright{
         font-size: 18px;
+    }
+}
+
+@media (max-width: 525px){
+    .nav-bar li{
+        display: flex;
     }
 }
