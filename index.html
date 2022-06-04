@@ -1,86 +1,190 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html>
 
 <head>
-    <title>Portfólio Pessoal</title>
     <meta charset="utf-8">
-    <meta name="author" content="Nome do autor meu mano">
-    <meta name="description" content="descrição né man esse n tem como">
-    <meta name="keywords" content="aqui eh as palavra chave pra acha no google tlgd">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
+    <link rel="stylesheet" href="assets/css/Contact-Details.css">
+    <link rel="stylesheet" href="assets/css/Countdown.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://senalfot.com/">
 </head>
 
-<body>
-    <div class="container">
-
-    <div class="nav-bar">
-        <ul>
-            <li><a href="#profileid">perfil</a></li>
-            <li><a href="#portfolioid">portfolio</a></li>
-            <li><a href="#">contato</a></li>
-        </ul>
-    </div>
-
-    <section id="profileid">
-    <div class="profile box">
-        <img class="profile-pic" src="img/me.png" alt="Profile">
-        <h1 class="title">Lucas Almeida</h1>
-        <span>São Paulo, BR</span>
-        <p>Desenvolvedor Front-End</p>
-
-        <ul class="redes-sociais">
-            <li><a href="https://www.linkedin.com/in/lucas-almeida22/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a></li>
-            <li><a href="https://github.com/lucc4w" target="_blank"><img src="img/github.svg" alt="GitHub"></a></li>
-        </ul>
-    </div>
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">portfólio</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">projetos</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white bg-primary masthead">
+        <div class="container text-center"><img class="img-fluid d-block mx-auto bounce animated mb-5" src="assets/img/me.png" style="height: 260px;border-radius: 50%;">
+            <h1 class="bounce animated">Lucas Almeida Souza</h1>
+            <h2 class="bounce animated font-weight-light mb-0" style="padding: 16px;">São Paulo, BR</h2><a href="https://github.com/lucc4w"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 512 512" width="1em" height="1em" fill="currentColor" class="text-white" style="width: 54px;height: 40px;">
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                </svg></a><a href="https://www.linkedin.com/in/lucas-almeida22/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="text-white" style="height: 38px;width: 40px;">
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                </svg></a>
+            <hr class="bounce animated star-light" style="margin: 14px;">
+            <h2 class="bounce animated font-weight-light mb-0">Desenvolvendor Front-end</h2>
+        </div>
+    </header>
+    <section data-aos="fade-right" id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">projetos</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/1.jpg">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-2" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/2.jpg">
+                    </a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-3" data-bs-toggle="modal">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="text-center text-white my-auto portfolio-item-caption-content w-100"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3.jpg">
+                    </a></div>
+            </div>
+        </div>
     </section>
-    
-    <section id="portfolioid">
-    <div class="portfolio box">
-        <h1 class="title">Portfólio</h1>
-        <ul>
-            <li>
-                <a href="https://github.com/lucc4w/Projeto-Strata" target="_blank"><img src="img/1.jpg" alt="1"></a>
-                
-                <div>
-                <a href="https://github.com/lucc4w/Projeto-Strata" target="_blank"><h2>Projeto Strata</h2></a>
-                
-                <p>Página web com diversos exemplos de funcionalidades úteis.</p>
+    <section data-aos="fade-right" id="contact" style="background: rgb(24, 188, 156);">
+        <div class="container">
+            <section class="position-relative py-4 py-xl-5">
+                <div class="container position-relative">
+                    <div class="row mb-5">
+                        <div class="col-md-8 col-xl-6 text-center mx-auto">
+                            <h2 style="color: rgb(255,255,255);">Entre em contato</h2>
+                        </div>
+                    </div>
+                    <hr class="star-light" style="margin: 31px;">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="d-flex flex-column justify-content-center align-items-start h-100">
+                                <div class="d-flex align-items-center p-3">
+                                    <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-whatsapp">
+                                            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                                        </svg></div>
+                                    <div class="px-2">
+                                        <h6 class="mb-0" style="color: rgb(255,255,255);">Whatsapp</h6>
+                                        <p class="mb-0" style="color: rgb(33, 37, 41);">(11) 9 3333-3333</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center p-3">
+                                    <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
+                                        </svg></div>
+                                    <div class="px-2">
+                                        <h6 class="mb-0" style="color: rgb(255,255,255);">Email</h6>
+                                        <p class="mb-0" style="color: rgb(33, 37, 41);">almeida.lucas@zohomail.com</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center p-3">
+                                    <div class="px-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5 col-xl-4">
+                            <div>
+                                <form class="p-3 p-xl-4" method="post">
+                                    <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name"></div>
+                                    <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div>
+                                    <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
+                                    <div><button class="btn btn-primary d-block w-100" type="submit" style="font-size: 24px;transform-style: preserve-3d;">Enviar</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="star-light" style="margin: 31px;">
                 </div>
-            </li>
-
-            <li>
-                <a href="https://github.com/lucc4w/calculadora-basica" target="_blank"><img src="img/2.jpg" alt="2"></a>
-                
-                <div>
-                <a href="https://github.com/lucc4w/calculadora-basica" target="_blank"><h2>Calculadora Básica</h2></a>
-                
-                <p>Calculadora simples para web.</p>
-                </div>
-            </li>
-
-            <li>
-                <a href="https://github.com/lucc4w/agencia-de-modelo" target="_blank"><img src="img/3.jpg" alt="3"></a>
-                
-                <div>
-                <a href="https://github.com/lucc4w/agencia-de-modelo" target="_blank"><h2>Fashion Agency</h2></a>
-                
-                <p>Exemplo de página web para agência de modelos.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
+            </section>
+        </div>
     </section>
-
-    <p class="copyright">Lucas Almeida © 2022</p>
-    
+    <div class="text-center text-white copyright py-4">
+        <div class="container"><small>Copyright ©&nbsp;Lucas Almeida Souza 2022</small></div>
     </div>
-
-    
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">projeto strata</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/1.jpg">
+                                <p class="mb-5">Página web com diversos exemplos de funcionalidades úteis para sites no geral :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>Fechar</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Calculadora</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/2.jpg">
+                                <p class="mb-5">Calculadora web :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>Fechar</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">fashion agency</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/3.jpg">
+                                <p class="mb-5">Exemplo de uma landing page de agência de modelos :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>Fechar</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+    <script src="assets/js/Animated-Type-Heading.js"></script>
+    <script src="assets/js/Countdown.js"></script>
 </body>
 
 </html>
